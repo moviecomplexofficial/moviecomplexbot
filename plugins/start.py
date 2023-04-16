@@ -87,8 +87,8 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                [   InlineKeyboardButton("🎬 Movie Complex", url=https://telegram.me/moviecomplexofficial'),
-                ]                      
+
+
                 [
                     InlineKeyboardButton("😊 About Me", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
